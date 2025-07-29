@@ -3,24 +3,22 @@
   --color-secondary: #FFC107;
   --color-accent: #FF5252;
 
-  /* Set main backgrounds to blue for light theme */
-  --bg-primary: #1976d2;      /* solid blue */
-  --bg-board: #2584e6;        /* lighter blue for board background */
-  --bg-control: #2196f3;      /* slightly lighter blue for controls */
-  --text-title: #ffffff;
-  --text-secondary: #e3f2fd;
-  --border-color: #90caf9;
+  --bg-primary: #fff;
+  --bg-board: #f3f6f8;
+  --bg-control: #f9fafc;
+  --text-title: #222b45;
+  --text-secondary: #808080;
+  --border-color: #ececec;
   --square-size: 84px;
 }
 
 [data-theme="dark"] {
-  /* Use dark blue shades for dark mode backgrounds */
-  --bg-primary: #102040;
-  --bg-board: #1a3374;
-  --bg-control: #153060;
+  --bg-primary: #181a1b;
+  --bg-board: #22242a;
+  --bg-control: #23232e;
   --text-title: #fafcff;
-  --text-secondary: #a5c8f6;
-  --border-color: #274472;
+  --text-secondary: #bababa;
+  --border-color: #37373d;
 }
 
 .App {
